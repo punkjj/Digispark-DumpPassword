@@ -18,7 +18,7 @@ This is a simple script which can extract browser passwords from Windows Compute
 - Closes FTP connection and exits ftp.exe
 - opens BDP.exe
 - Hides this GUI window below taskbar
-- Press CTRL+A and CTRL+S
+- Presses CTRL+A and CTRL+S
 - Saves pass.txt which contains all the passwords extracted from Browsers
 - Connects back to FTP and uploads pass.txt
 - Deletes all the files created by this program and removes all traces
