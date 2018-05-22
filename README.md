@@ -1,6 +1,7 @@
 # Digispark-DumpPassword
 This is a simple script which can extract browser passwords from Windows Computer without leaving any traces. 
-This program is solely written by me(punkjj) and you must give credits wherever needed.
+# Authors
+- *punkjj* - **Pankaj Sheoran**
 # What you need
  - **DigiSpark** Attiny85 USB Board
  - Platformio or Arduino IDE
@@ -33,6 +34,10 @@ This program is solely written by me(punkjj) and you must give credits wherever 
  # Indicators
  - LED ON indicates that program is now **Executing**
  - BLINKING LED indicates that progam has **Ended**
+ 
+ # License
+ - This project is licensed under the GNU General Public License v3.0
+ - See [LICENSE.md](LICENSE.md) for more details
  
  
  
