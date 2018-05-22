@@ -20,7 +20,7 @@ void setup()
     printThis("ftp", 2000);
     printThis("open ftp.drivehq.com", 3000);
     printThis("USERNAME", 2000);
-    printThis("USERNAME", 2000);
+    printThis("PASSWORD", 2000);
     printThis("get BPD.exe", 7000);
     printThis("close", 1000);
     printThis("quit", 1000);
